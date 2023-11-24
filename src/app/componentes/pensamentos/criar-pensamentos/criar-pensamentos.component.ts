@@ -24,4 +24,12 @@ export class CriarPensamentosComponent implements OnInit{
     throw new Error('Method not implemented.');
   }
 
+  criarPensamento(){
+    alert("Novo pensamento criado!")
+  }
+
+  cancelar(){
+    alert("Operação cancelada!")
+  }
+
 }
