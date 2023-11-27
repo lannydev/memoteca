@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-pensamento',
@@ -8,21 +9,18 @@ import { Component, OnInit } from '@angular/core';
 export class PensamentoComponent implements OnInit {
 
 
-  pensamento = {
-
+  @Input() pensamento = {
     conteudo: 'I Love Angular',
-    autoria:'Elaine Cruz',
+    autoria: 'Elaine Cruz',
     modelo: 'modelo3'
+  };
 
+
+  constructor() {
   }
 
-
-    constructor(){
-
-    }
-
-    ngOnInit(): void {
-      throw new Error('Method not implemented.');
-    }
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
 }
