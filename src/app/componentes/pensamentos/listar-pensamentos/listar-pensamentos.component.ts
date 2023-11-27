@@ -14,25 +14,21 @@ export class ListarPensamentosComponent implements OnInit {
       conteudo: 'passo informações para o componente filho',
       autoria:'Componente Pai',
       modelo: 'modelo3'
-
     },
-
     {
 
       conteudo: 'Minha propriedade é decorada com o @input',
       autoria:'Componente Filho',
       modelo: 'modelo2'
-
     }
-
-  ]
+  ];
 
   constructor(){
 
   }
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
 
 }
