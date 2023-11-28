@@ -9,18 +9,18 @@ export class ListarPensamentosComponent implements OnInit {
 
 
   listaPensamentos = [
-    {
+    // {
 
-      conteudo: 'passo informações para o componente filho',
-      autoria:'Componente Pai',
-      modelo: 'modelo3'
-    },
-    {
+    //   conteudo: 'passo informações para o componente filho',
+    //   autoria:'Componente Pai',
+    //   modelo: 'modelo3'
+    // },
+    // {
 
-      conteudo: 'Minha propriedade é decorada com o @input',
-      autoria:'Componente Filho',
-      modelo: 'modelo2'
-    }
+    //   conteudo: 'Minha propriedade é decorada com o @input',
+    //   autoria:'Componente Filho',
+    //   modelo: 'modelo2'
+    // }
   ];
 
   constructor(){
@@ -28,6 +28,7 @@ export class ListarPensamentosComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    throw new Error('Method not implemented.');
 
   }
 
