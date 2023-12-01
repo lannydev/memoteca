@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Pensamento } from '../pensamento';
+import { PensamentoService } from '../pensamento.service';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-criar-pensamentos',
@@ -9,28 +11,31 @@ import { Pensamento } from '../pensamento';
 export class CriarPensamentosComponent implements OnInit{
 
   pensamento: Pensamento = {
-    id: 1,
-    conteudo: ' Aqui vai seu conteúdo',
-    autoria: 'Aqui vai a autoria',
+    conteudo: ' ',
+    autoria: '',
     modelo: 'modelo1'
 
   }
 
 
-  constructor(){
-
-  }
+  constructor(
+    private service: PensamentoService,
+    private router: Router
+    ){}
 
   ngOnInit(): void {
     throw new Error('Method not implemented.');
   }
 
   criarPensamento(){
-    alert("Novo pensamento criado!")
+    this.service.criar(this.pensamento).subscribe(() => {
+    this.router.navigate(['/listarPensamento'])
+    })
   }
 
   cancelar(){
-    alert("Operação cancelada!")
+    this.router.navigate(['/listarPensamento'])
+
   }
 
 }

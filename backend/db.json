@@ -6,19 +6,35 @@
       "autoria": "Meishu Sama",
       "modelo": "modelo1"
     },
-
     {
       "id": 2,
       "conteudo": "Haverá verdadeira paz sempre que soubermos agradecer.",
       "autoria": "Meishu Sama",
       "modelo": "modelo2"
     },
-
     {
       "id": 3,
       "conteudo": "É realmente verdade que gratidão gera gratidão e lamúria gera lamúria. Isto acontece porque o coração agradecido comunica-se com Deus, e o queixoso relaciona-se com Satanás. Assim, quem vive agradecendo, torna-se feliz; quem vive se lamuriando, caminha para a infelicidade. A frase Alegrem-se que virão coisas alegres, expressa uma grande verdade.",
       "autoria": "Meishu Sama",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "As pessoas que vivem corretamente são alegres. Nelas não existe frestas para o mal penetrar. ",
+      "autoria": "Meishu Sama",
+      "modelo": "modelo2",
+      "id": 4
+    },
+    {
+      "conteudo": " Se considerarmos as dificuldades sem possibilidade de solução, como se elas nos pusessem contra a parede, podemos chegar ao desespero, mas se as encararmos calmamente e em atitude de prece, entenderemos as suas causas e poderemos encontrar as suas respectivas soluções",
+      "autoria": "Meishu Sama",
+      "modelo": "modelo3",
+      "id": 5
+    },
+    {
+      "conteudo": "Quem está com Deus, não deve lamentar o passado e nem se preocupar com o futuro. ",
+      "autoria": "Meishu Sama",
+      "modelo": "modelo2",
+      "id": 6
     }
   ]
 }
