@@ -1,3 +1,4 @@
+import { ExcluirPensamentoComponent } from './excluir-pensamento/excluir-pensamento.component';
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import { Pensamento } from './pensamento';
@@ -20,6 +21,23 @@ export class PensamentoService {
     return this.http.post<Pensamento>(this.API, pensamento)
 
   }
+
+  excluir(id: number): Observable<Pensamento>{
+    const url = `${this.API}/${id}`
+    return this.http.delete<Pensamento>(url)
+
+  }
+
+  buscarPorId(id: number): Observable<Pensamento>{
+    const url = `${this.API}/${id}`
+    return this.http.get<Pensamento>(url)
+
+  }
+
+  // editar(id: number): Observable<Pensamento>{
+  //   const url = `${this.API}/${id}`
+  //   return this.http.put<Pensamento>(url)
+  // }
 
 
 }
