@@ -2,24 +2,24 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Não sofra antecipadamente pelo que ainda não passou.",
-      "autoria": "Meishu Sama",
-      "modelo": "modelo1"
-    },
-    {
-      "id": 2,
-      "conteudo": "Haverá verdadeira paz sempre que soubermos agradecer.",
+      "conteudo": "Não sofra antecipadamente pelo que ainda não passou!.",
       "autoria": "Meishu Sama",
       "modelo": "modelo2"
     },
     {
-      "conteudo": "As pessoas que vivem corretamente são alegres. Nelas não existe frestas para o mal penetrar. ",
+      "id": 2,
+      "conteudo": "Haverá verdadeira paz sempre que soubermos agradecer!.",
       "autoria": "Meishu Sama",
-      "modelo": "modelo2",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "As pessoas que vivem corretamente são alegres. Nelas não existe frestas para o mal penetrar! ",
+      "autoria": "Meishu Sama",
+      "modelo": "modelo1",
       "id": 4
     },
     {
-      "conteudo": " Se considerarmos as dificuldades sem possibilidade de solução, como se elas nos pusessem contra a parede, podemos chegar ao desespero, mas se as encararmos calmamente e em atitude de prece, entenderemos as suas causas e poderemos encontrar as suas respectivas soluções",
+      "conteudo": " Se considerarmos as dificuldades sem possibilidade de solução, como se elas nos pusessem contra a parede, podemos chegar ao desespero, mas se as encararmos calmamente e em atitude de prece, entenderemos as suas causas e poderemos encontrar as suas respectivas soluções!",
       "autoria": "Meishu Sama",
       "modelo": "modelo3",
       "id": 5
