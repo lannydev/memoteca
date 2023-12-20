@@ -1,4 +1,4 @@
-# Memoteca
+<h1 align="center"> Memoteca </h1>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
 
@@ -32,3 +32,20 @@ Validação onde não considera válido campo preenchido com espaços:
 
 Validação que não permite que o campo fique vazio:
   `Validators.required`
+
+## Mais Validators:
+- `Validators.min()`: Validador que exige que o valor do controle seja maior ou igual ao número fornecido.
+- `Validators.max()`: Validador que exige que o valor do controle seja verdadeiro. Este validador é comumente usado para caixas de seleção obrigatórias.
+- `Validators.email()`: Validador que exige que o valor do controle passe em um teste de validação de email.
+- `Validators.maxLength()`: Validador que exige que o comprimento do valor do controle seja menor ou igual ao tamanho máximo fornecido.
+- `Validators.nullValidator()`: Validador de valores nulos.
+- `Validators.composeAsync()`: Compõe vários validadores assíncronos em uma única função que retorna a união dos objetos de erro individuais para o controle fornecido.
+
+Mais detalhes sobre a classe `Validators` voce encontra na [Documentação do Angular](https://angular.io/api/forms/Validators#description).
+
+
+
+
+<p align="center">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
