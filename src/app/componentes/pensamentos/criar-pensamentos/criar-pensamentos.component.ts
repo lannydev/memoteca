@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Pensamento } from '../pensamento';
 import { PensamentoService } from '../pensamento.service';
 import { Route, Router } from '@angular/router';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-criar-pensamentos',
@@ -17,14 +18,21 @@ export class CriarPensamentosComponent implements OnInit{
 
   }
 
+  formulario!: FormGroup
+
 
   constructor(
     private service: PensamentoService,
-    private router: Router
+    private router: Router,
+    private formBuilder: FormBuilder
     ){}
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    this.formulario = this.formBuilder.group({
+      conteudo: ['Formulario reativo'],
+      autoria: [''],
+      modelo: ['modelo1']
+    })
   }
 
   criarPensamento(){
