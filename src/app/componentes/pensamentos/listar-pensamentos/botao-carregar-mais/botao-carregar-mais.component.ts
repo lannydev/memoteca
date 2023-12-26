@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-botao-carregar-mais',
@@ -8,10 +8,15 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BotaoCarregarMaisComponent implements OnInit {
 
   @Input() haMaisPensamentos: boolean = false;
+  @Output() carregarMais: EventEmitter<void> = new EventEmitter<void>();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  carregarMaisPensamentos() {
+    this.carregarMais.emit();
   }
 
 }

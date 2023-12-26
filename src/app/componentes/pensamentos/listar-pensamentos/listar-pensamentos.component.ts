@@ -22,12 +22,15 @@ export class ListarPensamentosComponent implements OnInit {
   }
 
   carregarMaisPensamentos() {
-    this.service.listar(++this.paginaAtual)
-      .subscribe(listaPensamentos => {
-        this.listaPensamentos.push(...listaPensamentos);
-        if(!listaPensamentos.length) {
-          this.haMaisPensamentos = false
-        }
-      })
+    if (this.haMaisPensamentos) {
+      this.service.listar(++this.paginaAtual)
+        .subscribe(listaPensamentos => {
+          if (listaPensamentos.length > 0) {
+            this.listaPensamentos.push(...listaPensamentos);
+          } else {
+            this.haMaisPensamentos = false;
+          }
+        });
+    }
   }
 }

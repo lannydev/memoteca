@@ -1,6 +1,5 @@
-import { ExcluirPensamentoComponent } from './excluir-pensamento/excluir-pensamento.component';
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpParams} from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Pensamento } from './pensamento';
 import { Observable } from 'rxjs';
 
@@ -13,37 +12,35 @@ export class PensamentoService {
 
   constructor(private http: HttpClient) { }
 
-  listar(pagina: number): Observable<Pensamento[]>{
+  listar(pagina: number): Observable<Pensamento[]> {
+
     const itensPorPagina = 4;
 
     let params = new HttpParams()
-    .set("_pager", pagina)
-    .set("_limit", itensPorPagina)
+      .set("_page", pagina)
+      .set("_limit", itensPorPagina)
 
-    return this.http.get<Pensamento[]>(this.API, {params: params})
+    return this.http.get<Pensamento[]>(this.API, { params})
   }
 
-  criar(pensamento: Pensamento): Observable<Pensamento>{
+  criar(pensamento: Pensamento): Observable<Pensamento> {
     return this.http.post<Pensamento>(this.API, pensamento)
-
   }
 
-  editar(pensamento: Pensamento): Observable<Pensamento>{
+  editar(pensamento: Pensamento): Observable<Pensamento> {
     const url = `${this.API}/${pensamento.id}`
-    return this.http.put<Pensamento>(url, pensamento)
+    return this.http.put<Pensamento>(url, pensamento )
+
   }
 
-  excluir(id: number): Observable<Pensamento>{
+  excluir(id: number): Observable<Pensamento> {
     const url = `${this.API}/${id}`
     return this.http.delete<Pensamento>(url)
-
   }
 
-  buscarPorId(id: number): Observable<Pensamento>{
+  buscarPorId(id: number): Observable<Pensamento> {
     const url = `${this.API}/${id}`
     return this.http.get<Pensamento>(url)
-
   }
-
 
 }
