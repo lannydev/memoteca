@@ -45,14 +45,14 @@ Mais detalhes sobre a classe `Validators` voce encontra na [Documentação do An
 
 
 ## Métodos do HttpParams:
--`HttpParams.has()`: Informa se o corpo inclui um ou mais valores para um determinado parâmetro.
--`HttpParams.get()`: Recupera o primeiro valor de um parâmetro.
--`HttpParams.getAll()`: Recupera todos os valores de um parâmetro.
--`HttpParams.keys()`: Recupera todos os parâmetros para este corpo da requisição.
--`HttpParams.append()`: Acrescenta um novo valor aos valores existentes para um parâmetro.
--`HttpParams.appendAll()`: Constrói um novo corpo com valores anexados para o nome do parâmetro fornecido.
--`HttpParams.delete()`: Remove um determinado valor ou todos os valores de um parâmetro.
--`HttpParams.toString()`: Serializa o corpo da requisição em uma string codificada, em que os pares de chave-valor (separados por =) são separados por & s.
+- `HttpParams.has()`: Informa se o corpo inclui um ou mais valores para um determinado parâmetro.
+- `HttpParams.get()`: Recupera o primeiro valor de um parâmetro.
+- `HttpParams.getAll()`: Recupera todos os valores de um parâmetro.
+- `HttpParams.keys()`: Recupera todos os parâmetros para este corpo da requisição.
+- `HttpParams.append()`: Acrescenta um novo valor aos valores existentes para um parâmetro.
+- `HttpParams.appendAll()`: Constrói um novo corpo com valores anexados para o nome do parâmetro fornecido.
+- `HttpParams.delete()`: Remove um determinado valor ou todos os valores de um parâmetro.
+- `HttpParams.toString()`: Serializa o corpo da requisição em uma string codificada, em que os pares de chave-valor (separados por =) são separados por & s.
 
 Mais detalhes sobre o `HttpParams` voce encontra na [documentação do Angular](https://https://angular.io/api/common/http/HttpParams).
 
