@@ -41,6 +41,76 @@
       "modelo": "modelo3",
       "favorito": false,
       "id": 7
+    },
+    {
+      "conteudo": "Você não é igual a todo mundo!",
+      "autoria": "mãe",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 8
+    },
+    {
+      "conteudo": "Em casa a gente conversa!",
+      "autoria": "mãe",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 9
+    },
+    {
+      "id": 10,
+      "conteudo": "Se eu for aí e achar, eu esfrego na sua cara!",
+      "autoria": "mãe",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "conteudo": "Você não é todo mundo!",
+      "autoria": "mãe",
+      "modelo": "modelo3",
+      "favorito": true,
+      "id": 11
+    },
+    {
+      "conteudo": "Na minha máquina funciona",
+      "autoria": "dev",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 12
+    },
+    {
+      "conteudo": "Limpa o cache que funciona ;)",
+      "autoria": "dev",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 13
+    },
+    {
+      "conteudo": "Melhor professor, o fracasso é!",
+      "autoria": "mestre yoda",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 14
+    },
+    {
+      "id": 15,
+      "conteudo": "Não faça drama, faça café!",
+      "autoria": "dev",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "conteudo": "Não fez mais que a sua obrigação!",
+      "autoria": "mãe",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 16
+    },
+    {
+      "conteudo": "Eu vou contar até três!",
+      "autoria": "mãe",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 17
     }
   ]
 }
