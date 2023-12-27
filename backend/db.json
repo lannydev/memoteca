@@ -4,36 +4,42 @@
       "id": 1,
       "conteudo": "Não sofra antecipadamente pelo que ainda não passou!.",
       "autoria": "Meishu Sama",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Haverá verdadeira paz sempre que soubermos agradecer!.",
       "autoria": "Meishu Sama",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "As pessoas que vivem corretamente são alegres. Nelas não existe frestas para o mal penetrar! ",
       "autoria": "Meishu Sama",
       "modelo": "modelo1",
+      "favorito": true,
       "id": 4
     },
     {
       "conteudo": " Se considerarmos as dificuldades sem possibilidade de solução, como se elas nos pusessem contra a parede, podemos chegar ao desespero, mas se as encararmos calmamente e em atitude de prece, entenderemos as suas causas e poderemos encontrar as suas respectivas soluções!",
       "autoria": "Meishu Sama",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 5
     },
     {
       "conteudo": "Quem está com Deus, não deve lamentar o passado e nem se preocupar com o futuro. ",
       "autoria": "Meishu Sama",
       "modelo": "modelo2",
+      "favorito": true,
       "id": 6
     },
     {
       "conteudo": "Que a força esteja com você!",
       "autoria": "Star Wars (George Lucas)",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 7
     }
   ]
