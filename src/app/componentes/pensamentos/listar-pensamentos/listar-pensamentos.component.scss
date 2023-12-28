@@ -13,6 +13,16 @@
   justify-content: center;
 }
 
+.botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.botoes button {
+  margin-left: 10px;
+  margin-right: 2px;
+}
+
 .sem-pensamentos {
   text-align: center;
   padding: 2rem 0 5rem;
