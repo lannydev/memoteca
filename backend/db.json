@@ -12,7 +12,7 @@
       "conteudo": "Haverá verdadeira paz sempre que soubermos agradecer!.",
       "autoria": "Meishu Sama",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": "As pessoas que vivem corretamente são alegres. Nelas não existe frestas para o mal penetrar! ",
@@ -53,7 +53,7 @@
       "conteudo": "Em casa a gente conversa!",
       "autoria": "mãe",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 9
     },
     {
@@ -67,7 +67,7 @@
       "conteudo": "Você não é todo mundo!",
       "autoria": "mãe",
       "modelo": "modelo3",
-      "favorito": true,
+      "favorito": false,
       "id": 11
     },
     {
@@ -81,7 +81,7 @@
       "conteudo": "Limpa o cache que funciona ;)",
       "autoria": "dev",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 13
     },
     {
